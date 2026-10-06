@@ -21,6 +21,7 @@ tiền điện 1.250.000đ     →  Chi  1.250.000 đ
 |---|---|---|
 | **Sổ Sạch** (thư mục gốc) | Ghi sổ và ước tính thuế cho hộ kinh doanh sau khi bỏ thuế khoán | Hộ kinh doanh (B2C, giá thấp) |
 | [**Rẫy Số**](projects/ray-so/) | Kiểm tra dữ liệu thửa đất và truy xuất lô cà phê theo quy định chống phá rừng của EU (EUDR) | Công ty xuất khẩu nông sản (B2B) |
+| [**Ra Đề**](projects/ra-de/) | Dán đề từ Word, nhận file Word nhiều mã đề kèm đáp án; AI soạn đề định dạng mới | Giáo viên (không cần học dùng app) |
 
 ## Chạy thử
 

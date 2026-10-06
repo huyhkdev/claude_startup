@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ra Đề</title>
+  <meta name="description" content="Dán đề từ Word, nhận ngay file Word nhiều mã đề kèm bảng đáp án.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232547a8'/%3E%3Ctext x='16' y='22' font-size='15' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='700'%3EĐ%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1>Ra Đề</h1>
+    <p class="tagline">Dán đề từ Word. Nhận ngay file Word nhiều mã đề, kèm bảng đáp án.</p>
+  </header>
+
+  <main>
+    <section class="card" id="ai-card" hidden>
+      <details>
+        <summary><strong>Chưa có đề? Để AI soạn giúp</strong></summary>
+        <div class="grid">
+          <label>Môn<input id="ai-subject" placeholder="Lịch sử"></label>
+          <label>Lớp<input id="ai-grade" placeholder="12" inputmode="numeric"></label>
+        </div>
+        <label>Nội dung kiểm tra<input id="ai-topic" placeholder="Bài 1: Liên hợp quốc"></label>
+        <label>Tài liệu của thầy cô (không bắt buộc)<textarea id="ai-material" rows="3" placeholder="Dán nội dung bài học để AI ra đề sát bài hơn"></textarea></label>
+        <div class="grid three">
+          <label>Phần I<input id="ai-mcq" type="number" min="0" max="40" value="12"></label>
+          <label>Phần II<input id="ai-tf" type="number" min="0" max="8" value="2"></label>
+          <label>Phần III<input id="ai-short" type="number" min="0" max="10" value="4"></label>
+        </div>
+        <button id="ai-go" type="button">Soạn đề</button>
+        <span id="ai-status" class="muted"></span>
+      </details>
+    </section>
+
+    <section class="card">
+      <div class="row between">
+        <h2>1. Dán đề gốc</h2>
+        <button type="button" class="link" id="load-sample">Xem đề mẫu</button>
+      </div>
+      <p class="muted small">Gõ như trong Word: <code>Câu 1.</code> rồi các phương án <code>A. B. C. D.</code> Thêm dấu <code>*</code> trước đáp án đúng. Câu đúng/sai dùng <code>a) b) c) d)</code>, câu trả lời ngắn thêm dòng <code>Đáp án: ...</code></p>
+      <textarea id="exam" rows="14" spellcheck="false" placeholder="PHẦN I. ...&#10;Câu 1. Nội dung câu hỏi&#10;A. ...    *B. ...    C. ...    D. ..."></textarea>
+      <div id="check"></div>
+    </section>
+
+    <section class="card">
+      <h2>2. Thông tin đề</h2>
+      <label>Tên trường<input id="school" placeholder="TRƯỜNG THPT ..."></label>
+      <label>Tên đề<input id="title" placeholder="ĐỀ KIỂM TRA GIỮA KÌ I"></label>
+      <div class="grid">
+        <label>Môn<input id="subject" placeholder="Lịch sử 12"></label>
+        <label>Thời gian (phút)<input id="minutes" type="number" min="5" max="180" placeholder="45"></label>
+      </div>
+      <div class="grid">
+        <label>Số mã đề<input id="versions" type="number" min="1" max="24" value="4"></label>
+        <label>Mã đề bắt đầu<input id="start" type="number" min="1" value="101"></label>
+      </div>
+      <button id="download" type="button">Tải file Word</button>
+      <span id="dl-status" class="muted"></span>
+    </section>
+  </main>
+
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

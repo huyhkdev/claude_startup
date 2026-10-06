@@ -1,0 +1,21 @@
+{
+  "name": "ra-de",
+  "version": "0.1.0",
+  "description": "Ra Đề – trộn đề và tạo đề thi định dạng mới cho giáo viên, xuất file Word",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.131.0",
+    "docx": "^9.8.1"
+  },
+  "type": "module",
+  "private": true
+}

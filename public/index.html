@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sổ Sạch</title>
+  <meta name="description" content="Ghi sổ và ước tính thuế cho hộ kinh doanh bằng một câu nói.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f7b5f'/%3E%3Ctext x='16' y='22' font-size='16' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='700'%3ES%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1>Sổ Sạch</h1>
+    <p class="tagline">Ghi sổ bằng một câu. Biết trước tiền thuế.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Ghi nhanh</h2>
+      <form id="quick-form">
+        <textarea id="quick-input" rows="3" placeholder="VD: bán 3 tô phở x 45k&#10;nhập 20kg thịt 2tr4&#10;tiền điện 1.250.000đ"></textarea>
+        <div class="row">
+          <button type="submit">Ghi vào sổ</button>
+          <span id="engine" class="muted"></span>
+        </div>
+      </form>
+    </section>
+
+    <section class="card stats">
+      <div><span class="label">Doanh thu năm nay</span><strong id="stat-thu">0</strong></div>
+      <div><span class="label">Chi phí</span><strong id="stat-chi">0</strong></div>
+      <div><span class="label">Lãi ước tính</span><strong id="stat-lai">0</strong></div>
+    </section>
+
+    <section class="card">
+      <h2>Thuế ước tính <span class="year"></span></h2>
+      <label>Ngành nghề
+        <select id="category"></select>
+      </label>
+      <div id="tax-result"></div>
+      <p id="deadline" class="notice"></p>
+      <p class="muted small">Ước tính theo phương pháp tỷ lệ % trên doanh thu, chỉ để tham khảo. Hãy đối chiếu quy định hiện hành với cơ quan thuế.</p>
+    </section>
+
+    <section class="card">
+      <div class="row between">
+        <h2>Sổ giao dịch</h2>
+        <div class="row">
+          <button class="secondary" id="export-thu">Xuất sổ S1-HKD</button>
+          <button class="secondary" id="export-chi">Xuất sổ chi</button>
+        </div>
+      </div>
+      <ul id="tx-list"></ul>
+      <p id="empty" class="muted">Chưa có giao dịch nào. Hãy thử ghi một câu ở trên.</p>
+    </section>
+  </main>
+
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

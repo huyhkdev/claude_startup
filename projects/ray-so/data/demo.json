@@ -1,0 +1,447 @@
+{
+ "plots": [
+  {
+   "id": "T01",
+   "farmer": {
+    "id": "H01",
+    "name": "Y Thơ Niê (mẫu)"
+   },
+   "commune": "Xã Hòa Phú (mẫu)",
+   "district": "TP. Buôn Ma Thuột",
+   "province": "Đắk Lắk",
+   "crop": "coffee",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       108.021,
+       12.712
+      ],
+      [
+       108.022105,
+       12.712
+      ],
+      [
+       108.022105,
+       12.712898
+      ],
+      [
+       108.021,
+       12.712898
+      ],
+      [
+       108.021,
+       12.712
+      ]
+     ]
+    ]
+   },
+   "declaredAreaHa": 1.2
+  },
+  {
+   "id": "T02",
+   "farmer": {
+    "id": "H02",
+    "name": "Nguyễn Văn Hùng (mẫu)"
+   },
+   "commune": "Xã Hòa Phú (mẫu)",
+   "district": "TP. Buôn Ma Thuột",
+   "province": "Đắk Lắk",
+   "crop": "coffee",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       108.022842,
+       12.712
+      ],
+      [
+       108.024499,
+       12.71209
+      ],
+      [
+       108.024407,
+       12.713347
+      ],
+      [
+       108.022934,
+       12.713258
+      ],
+      [
+       108.022842,
+       12.712
+      ]
+     ]
+    ]
+   },
+   "declaredAreaHa": 2.5
+  },
+  {
+   "id": "T03",
+   "farmer": {
+    "id": "H03",
+    "name": "H'Lan Byă (mẫu)"
+   },
+   "commune": "Xã Hòa Phú (mẫu)",
+   "district": "TP. Buôn Ma Thuột",
+   "province": "Đắk Lắk",
+   "crop": "coffee",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.025604,
+     12.712449
+    ]
+   },
+   "declaredAreaHa": 1
+  },
+  {
+   "id": "T04",
+   "farmer": {
+    "id": "H04",
+    "name": "Trần Thị Mai (mẫu)"
+   },
+   "commune": "Xã Hòa Phú (mẫu)",
+   "district": "TP. Buôn Ma Thuột",
+   "province": "Đắk Lắk",
+   "crop": "coffee",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.027446,
+     12.712449
+    ]
+   },
+   "declaredAreaHa": 5.5
+  },
+  {
+   "id": "T05",
+   "farmer": {
+    "id": "H05",
+    "name": "Lê Văn Tâm (mẫu)"
+   },
+   "commune": "Xã Hòa Phú (mẫu)",
+   "district": "TP. Buôn Ma Thuột",
+   "province": "Đắk Lắk",
+   "crop": "coffee",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       108.021,
+       12.715593
+      ],
+      [
+       108.022381,
+       12.715593
+      ],
+      [
+       108.022381,
+       12.716671
+      ],
+      [
+       108.021,
+       12.716671
+      ],
+      [
+       108.021,
+       12.715593
+      ]
+     ]
+    ]
+   },
+   "declaredAreaHa": 1.8
+  },
+  {
+   "id": "T06",
+   "farmer": {
+    "id": "H04",
+    "name": "Trần Thị Mai (mẫu)"
+   },
+   "commune": "Xã Hòa Phú (mẫu)",
+   "district": "TP. Buôn Ma Thuột",
+   "province": "Đắk Lắk",
+   "crop": "coffee",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       108.023763,
+       12.712539
+      ],
+      [
+       108.024868,
+       12.712539
+      ],
+      [
+       108.024868,
+       12.713617
+      ],
+      [
+       108.023763,
+       12.713617
+      ],
+      [
+       108.023763,
+       12.712539
+      ]
+     ]
+    ]
+   },
+   "declaredAreaHa": 1.4
+  },
+  {
+   "id": "T07",
+   "farmer": {
+    "id": "H01",
+    "name": "Y Thơ Niê (mẫu)"
+   },
+   "commune": "Xã Hòa Phú (mẫu)",
+   "district": "TP. Buôn Ma Thuột",
+   "province": "Đắk Lắk",
+   "crop": "coffee",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       108.021,
+       12.713797
+      ],
+      [
+       108.021921,
+       12.714695
+      ],
+      [
+       108.021921,
+       12.713797
+      ],
+      [
+       108.021,
+       12.714695
+      ],
+      [
+       108.021,
+       12.713797
+      ]
+     ]
+    ]
+   },
+   "declaredAreaHa": 1
+  },
+  {
+   "id": "T08",
+   "farmer": {
+    "id": "H03",
+    "name": "H'Lan Byă (mẫu)"
+   },
+   "commune": "Xã Hòa Phú (mẫu)",
+   "district": "TP. Buôn Ma Thuột",
+   "province": "Đắk Lắk",
+   "crop": "coffee",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.713797,
+       108.025604
+      ],
+      [
+       12.713797,
+       108.026341
+      ],
+      [
+       12.714515,
+       108.026341
+      ],
+      [
+       12.714515,
+       108.025604
+      ],
+      [
+       12.713797,
+       108.025604
+      ]
+     ]
+    ]
+   },
+   "declaredAreaHa": 0.6
+  },
+  {
+   "id": "T09",
+   "farmer": {
+    "id": "H02",
+    "name": "Nguyễn Văn Hùng (mẫu)"
+   },
+   "commune": "Xã Hòa Phú (mẫu)",
+   "district": "TP. Buôn Ma Thuột",
+   "province": "Đắk Lắk",
+   "crop": "coffee",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       108.023302,
+       12.714246
+      ],
+      [
+       108.024223,
+       12.714246
+      ],
+      [
+       108.024223,
+       12.715144
+      ],
+      [
+       108.023302,
+       12.715144
+      ],
+      [
+       108.023302,
+       12.714246
+      ]
+     ]
+    ]
+   },
+   "declaredAreaHa": 3
+  }
+ ],
+ "layers": {
+  "forestLoss": [
+   {
+    "id": "FL-2022-01",
+    "name": "Mất rừng mẫu A",
+    "date": "2022-03-15",
+    "ring": [
+     [
+      108.02054,
+      12.716042
+     ],
+     [
+      108.024223,
+      12.716042
+     ],
+     [
+      108.024223,
+      12.718737
+     ],
+     [
+      108.02054,
+      12.718737
+     ],
+     [
+      108.02054,
+      12.716042
+     ]
+    ]
+   },
+   {
+    "id": "FL-2019-07",
+    "name": "Mất rừng mẫu B (trước mốc)",
+    "date": "2019-07-01",
+    "ring": [
+     [
+      108.021,
+      12.712
+     ],
+     [
+      108.022105,
+      12.712
+     ],
+     [
+      108.022105,
+      12.712898
+     ],
+     [
+      108.021,
+      12.712898
+     ],
+     [
+      108.021,
+      12.712
+     ]
+    ]
+   }
+  ],
+  "protectedAreas": [
+   {
+    "id": "PA-01",
+    "name": "Rừng phòng hộ mẫu",
+    "ring": [
+     [
+      108.026986,
+      12.712
+     ],
+     [
+      108.029748,
+      12.712
+     ],
+     [
+      108.029748,
+      12.714695
+     ],
+     [
+      108.026986,
+      12.714695
+     ],
+     [
+      108.026986,
+      12.712
+     ]
+    ]
+   }
+  ]
+ },
+ "lots": [
+  {
+   "id": "LO-2026-001",
+   "exporter": "Công ty XK mẫu",
+   "buyer": "EU Roaster (mẫu)",
+   "deliveries": [
+    {
+     "id": "PG-01",
+     "plotId": "T01",
+     "kg": 3200
+    },
+    {
+     "id": "PG-02",
+     "plotId": "T02",
+     "kg": 6000
+    },
+    {
+     "id": "PG-03",
+     "plotId": "T03",
+     "kg": 2500
+    }
+   ]
+  },
+  {
+   "id": "LO-2026-002",
+   "exporter": "Công ty XK mẫu",
+   "buyer": "EU Trader (mẫu)",
+   "deliveries": [
+    {
+     "id": "PG-04",
+     "plotId": "T09",
+     "kg": 4000
+    },
+    {
+     "id": "PG-05",
+     "plotId": "T05",
+     "kg": 3000
+    },
+    {
+     "id": "PG-06",
+     "plotId": "T01",
+     "kg": 4500
+    }
+   ]
+  }
+ ]
+}

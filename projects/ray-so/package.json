@@ -1,0 +1,13 @@
+{
+  "name": "ray-so",
+  "version": "0.1.0",
+  "description": "Rẫy Số – chuẩn bị hồ sơ truy xuất nguồn gốc EUDR cho cà phê nông hộ Việt Nam",
+  "type": "module",
+  "private": true,
+  "license": "UNLICENSED",
+  "bin": { "ray-so": "cli.js" },
+  "scripts": {
+    "demo": "node data/make-demo.js && node cli.js data/demo.json --out out",
+    "test": "node --test"
+  }
+}

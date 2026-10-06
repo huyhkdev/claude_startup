@@ -15,6 +15,13 @@ tiền điện 1.250.000đ     →  Chi  1.250.000 đ
 - Kế hoạch kinh doanh: [docs/ke-hoach-kinh-doanh.md](docs/ke-hoach-kinh-doanh.md)
 - Lộ trình: [docs/lo-trinh.md](docs/lo-trinh.md)
 
+## Các ý tưởng trong repo
+
+| Dự án | Một câu | Khách hàng |
+|---|---|---|
+| **Sổ Sạch** (thư mục gốc) | Ghi sổ và ước tính thuế cho hộ kinh doanh sau khi bỏ thuế khoán | Hộ kinh doanh (B2C, giá thấp) |
+| [**Rẫy Số**](projects/ray-so/) | Kiểm tra dữ liệu thửa đất và truy xuất lô cà phê theo quy định chống phá rừng của EU (EUDR) | Công ty xuất khẩu nông sản (B2B) |
+
 ## Chạy thử
 
 Yêu cầu Node.js 20 trở lên.
